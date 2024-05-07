@@ -1,7 +1,6 @@
 ---
 - name: Install Docker and Update Packages
-  hosts: nagios
-  remote_user: nagios
+  hosts: "all"
   become: true
   tasks:
     - name: Update all packages

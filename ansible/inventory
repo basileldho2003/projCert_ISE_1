@@ -1,0 +1,5 @@
+[slave]
+192.168.122.169
+
+[slave:vars]
+ansible_user=nagios
